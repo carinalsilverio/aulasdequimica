@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aulas Particulares de Química</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+    </head>
+
+    <body>
+        <header class="header">        
+        <div class="grid-container" >        
+            <nav class="grid 12 header_menu">                
+                <ul>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Login</a></li>
+                </ul>             
+            </nav>
+        </div>
+    </header>
+    <section class="imagem-quote quote">        
+        <div class="container">                       
+            <h1>Curso de Química</h1>
+            <h3>"A Química do Conhecimento está no prazer de ensinar e na vontade de aprender."</h3>
+            <h4>Autor: FBranches</h4>     
+                   
+        </div>  
+    </section>
+
+    <section class="titulo">
+        <div>
+            <h1>Sobre</h1>
+            <div class="sobre">                
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non umquam eius modi tempora incidunt ut labore et dolore" </p>  
+                      
+            </div>
+        </div>
+    </section>
+    
+    <section class="titulo servicos" > 
+        <div class="container">                                   
+            <h1>Serviços</h1>                                   
+                <ul>
+                    <li>ed ut perspiciatis</li>
+                    <li>ed ut perspiciatis</li>
+                    <li>ed ut perspiciatis</li>
+                </ul>              
+        </div>     
+    </section>
+
+    <section class="titulo"> 
+        <div>        
+            <h1>Depoimentos de Alunos</h1>   
+            <div class="depoimentos">           
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/src/img/imagem_depoimento_1.jpg" class="imagem-carrosel w-100" alt="imagem_depoimento_1">                        
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/src/img/imagem_depoimento_2.jpg" class="imagem-carrosel w-100" alt="imagem_depoimento_2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/src/img/imagem_depoimento_3.jpg" class="imagem-carrosel w-100" alt="imagem_depoimento_3">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>                
+           </div>   
+        </div>         
+    </section>
+
+    <div class="container">
+		<div class="row">
+			<section id="video" class="col-sm-6">
+
+				<h2 class="titulo-video">Vídeo Institucional</h2>
+				<div class="embed-responsive embed-responsive-16by9">
+					<!-- retirado da documentação do Bootstrap. Serve para alinhar o título que aparece no vídeo e o botão play-->
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/yv5168bi1X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+
+    <!--Contato-->
+			<section id="contato titulo" class="col-sm-6">
+				<h2>Contato</h2>
+				<h4>Entre em contato conosco</h4>
+
+				<form>
+					<div class="form-group">
+						<label for="contato-name">Nome:</label>
+						<input id="contato-nome" class="form-control" type="text" placeholder="Seu nome">						
+					</div>
+
+					<div class="form-group">
+						<label for="contato-email">E-mail</label>
+						<div class="input-group">
+							<div class="input-group-addon">@</div>
+							<input id="contato-email" class="form-control" type="email" placeholder="Seu e-mail">							
+						</div>
+					</div>
+
+					<div class="grupo-radio">
+						<div class="radio">
+							<label>
+								<input type="radio" name="tipo-pessoa" value="fisica" checked>								
+								Pessoa Física
+							</label>
+						</div>
+
+						<div class="radio">
+							<label>
+								<input type="radio" name="tipo-pessoa" value="juridica">
+								Pessoa Jurídica
+							</label>
+						</div>
+					</div>
+					<!--
+
+		--><select class="contato-select form-control" name="tipo-solicitacao">
+						<option value="" disabled selected>Tipo de Contato</option>
+						<option value="casa">Material</option>
+						<option value="apartamento">Aulas Particulares</option>
+                        <option value="apartamento">Parcerias</option>
+                        <option value="apartamento">Críticas/Sugestões</option>
+						<option value="mansao">Dúvidas</option>
+					</select>
+                    <textarea name="mensagem" id="mensagem" cols="50" rows="10" placeholder="Deixe sua mensagem"></textarea>
+
+					<button type="submit" class="btn btn-primary">Enviar</button>
+
+				</form>
+			</section>
+		</div>
+	</div>
+
+    <!--Endereço-->
+     <section>
+        <footer>
+            <address>
+                <strong>Aulas de Química</strong><br>
+                Florianópolis/SC <br>
+                Tel: (11) 5571-2751 ou 5083-3884
+            </address>
+            <address>
+                Email: contato.aulasdequimica.com.br
+            </address>
+        </footer>
+    </section>
+    
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+    </html>
