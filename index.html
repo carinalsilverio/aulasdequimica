@@ -7,22 +7,50 @@
         <title>Aulas Particulares de Química</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
     </head>
 
     <body>
-        <header class="header">        
-        <div class="grid-container" >        
-            <nav class="grid 12 header_menu">                
-                <ul>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
-                    <li><a href="">Login</a></li>
-                </ul>             
-            </nav>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark" style="background-image: linear-gradient(#10bdec, #053742)" style="font-weight:bold">
+            <a href="#index.html" class="navbar-brand"></a>
+            <img src="src/img/logo2.png" alt="" width="60" height="50" class="d-inline-block align-top" />
+              <span class="hidden">Aulas de Química</span>
+            </a>
+
+              <button 
+              class="navbar-toggler" 
+              type="button" data-bs-toggle="collapse" 
+              data-bs-target="#toggleMobileMenu" 
+              aria-controls="toggleMobileMenu" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>              
+              </button>
+
+              <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                  <li>
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#serviços">Serviços</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#contato">Contato</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                </ul>
+              </div>
+
+          </nav>
+
         </div>
-    </header>
+
+
     <section class="imagem-quote quote">        
         <div class="container">                       
             <h1>Curso de Química</h1>
@@ -32,7 +60,7 @@
         </div>  
     </section>
 
-    <section class="titulo">
+    <section id = "sobre" class="titulo">
         <div>
             <h1>Sobre</h1>
             <div class="sobre">                
@@ -42,18 +70,32 @@
         </div>
     </section>
     
-    <section class="titulo servicos" > 
-        <div class="container">                                   
-            <h1>Serviços</h1>                                   
-                <ul>
-                    <li>ed ut perspiciatis</li>
-                    <li>ed ut perspiciatis</li>
-                    <li>ed ut perspiciatis</li>
-                </ul>              
-        </div>     
+    <section id = "serviços" class="titulo servicos" > 
+        <div>                                   
+            <h1>Serviços</h1>
+        </div>
+            <h5>Química Orgânica</h5>
+            <div class="imagem-servicos">                 
+                <div class="card" style="width: 17.5rem;">                                        
+                    <img class="col-sm-4 card-img-servicos" src="src/img/quimica-organica.jpg" alt=""> 
+                </div>
+                <div class="card" style="width: 17.5rem;">
+                    <h5>Tabela Periódica</h5>
+                    <img class="col-sm-4 card-img-servicos" src="src/img/tabela-periodica.jpg" alt=""> 
+                </div>
+                <div class="card" style="width: 17.5rem;">
+                    <h5>Química Orgânica</h5>
+                    <img class="col-sm-4 card-img-servicos" src="src/img/quimica-organica.jpg" alt=""> 
+                </div>
+                <div class="card" style="width: 17.5rem;">
+                    <h5>Tabela Periódica</h5>
+                    <img class="col-sm-4 card-img-servicos" src="src/img/tabela-periodica.jpg" alt=""> 
+                </div>
+            </div>                  
+            
     </section>
 
-    <section class="titulo"> 
+    <section id = "depoimentos"class="titulo"> 
         <div>        
             <h1>Depoimentos de Alunos</h1>   
             <div class="depoimentos">           
@@ -99,7 +141,7 @@
 			</section>
 
     <!--Contato-->
-			<section id="contato titulo" class="col-sm-6">
+			<section id= "contato" id="contato titulo" class="col-sm-6">
 				<h2>Contato</h2>
 				<h4>Entre em contato conosco</h4>
 
@@ -157,7 +199,7 @@
             <address>
                 <strong>Aulas de Química</strong><br>
                 Florianópolis/SC <br>
-                Tel: (11) 5571-2751 ou 5083-3884
+                Tel: (48) 99999-9999 
             </address>
             <address>
                 Email: contato.aulasdequimica.com.br
