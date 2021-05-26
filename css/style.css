@@ -258,8 +258,13 @@ body {
   margin-right: 150px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: bold;
+}
+
 .logo {
   margin-left: 150px;
+  display: inline-block;
 }
 
 .quote h1 {
@@ -319,7 +324,7 @@ body {
 }
 
 #servicos {
-  background-image: linear-gradient(#588db9, #9aaeb3);
+  background-image: linear-gradient(#92c8f5, #4a9ce9);
   height: 700px;
 }
 
@@ -391,6 +396,7 @@ footer {
   color: #fff;
   padding: 20px !important;
   margin-top: 10px;
+  height: 200px;
 }
 
 footer address:last-child {
@@ -425,4 +431,42 @@ footer address:last-child {
 
 address {
   height: 80px;
+}
+
+.redes-sociais {
+  padding: 0;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: -190px;
+  width: 100%;
+}
+
+.icons {
+  display: inline-block;
+  margin-left: 58.8rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.icons a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: rgb(174, 180, 236);
+  color: #000;
+  margin: 0 3;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  transform: translateY(-10px);
+  opacity: 0.5;
 }
