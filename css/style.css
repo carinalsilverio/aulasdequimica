@@ -238,7 +238,13 @@ ul {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(#c7f6ff, #81c8e0, #83d1f7, #7ebfed);
+  /*background-image: linear-gradient(#c7f6ff, #81c8e0, #83d1f7, #7ebfed);*/
+  background-image: linear-gradient(
+    rgb(28 165 191),
+    rgb(129, 200, 224),
+    rgb(131, 209, 247),
+    rgb(126, 191, 237)
+  );
 }
 
 /*p {
@@ -351,7 +357,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #16384c;
 }
 
 .container-card {
@@ -368,7 +373,12 @@ body {
   position: relative;
   max-width: 300px;
   height: 215px;
-  background: rgb(6, 64, 126);
+  background-image: linear-gradient(
+    rgb(28 165 191),
+    rgb(129, 200, 224),
+    rgb(131, 209, 247),
+    rgb(126, 191, 237)
+  );
   margin: 30px 10px;
   padding: 20px 15px;
   display: flex;
@@ -396,14 +406,18 @@ body {
   border-radius: 4px;
 }
 
+.container-card .card .imgBx img:hover {
+  opacity: 0.1;
+}
+
 .content h2 {
   font-size: 24px;
   margin-bottom: 15px;
   font-weight: bold;
-  color: #eee;
+  color: rgb(48, 47, 47);
 }
 .content p {
-  color: #fff;
+  color: rgb(48, 47, 47);
 }
 
 .container-card .card .content {
@@ -426,7 +440,6 @@ body {
 
 .imagem-carrosel {
   height: 500px;
-  opacity: 0.6;
 }
 
 .titulo-video {
