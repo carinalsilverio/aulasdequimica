@@ -1,4 +1,4 @@
-class Validator {
+/*class Validator {
 
   constructor() {
     this.validations = [
@@ -193,4 +193,4 @@ submit.addEventListener('click', function(e) {
   e.preventDefault();
 
   validator.validate(form);
-});
+});*/
