@@ -242,22 +242,23 @@ body {
 
 .titulo h1 {
   color: #000;
+  background-image: linear-gradient(#92c8f5, #4a9ce9);
   font-weight: bold;
   font-size: 25px;
   text-transform: uppercase;
-  margin-top: 0.5rem;
+  margin-top: auto;
   text-align: center;
-  padding-top: 2.5rem;
-  margin-bottom: 1rem;
+  padding: 1.5rem;
+  margin-bottom: auto;
 }
 
 #sobre p {
   text-align: center;
   justify-content: center;
-  max-width: 60rem;
+  max-width: 750px;
   margin-top: 0.5rem;
   color: #000;
-
+  margin-top: 40px;
   margin-left: 30%;
 }
 
@@ -275,20 +276,26 @@ body {
   -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
   -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
   box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  /*margin-left: 800px;
+  margin-top: 30px;*/
 }
 
 #servicos {
-  background-image: linear-gradient(#92c8f5, #4a9ce9);
+  /*background-image: linear-gradient(#92c8f5, #4a9ce9);*/
   height: 60rem;
+  /*height: 75rem;
+  max-width: 750px;
+  margin-left: 30%;
+  border-radius: 2%;*/
 }
 
 #servicos h1 {
-  margin-bottom: 55rem;
-  margin-left: 325%;
-  text-align: center;
+  /* margin-left: 260%; */
+  margin-top: -20px;
 }
 
 .foto_servicos {
+  display: none;
   border-radius: 50%;
   border: 5px dotted rgba(0, 0, 0, 0.1);
   border-color: rgb(42, 100, 60);
@@ -296,6 +303,9 @@ body {
   width: 300px;
   height: 300px;
   display: flex;
+  /*margin-top: 50px;*/
+  margin-left: 150px;
+  margin-top: 200px;
   -webkit-box-shadow: -55px 40px 28px rgb(9, 99, 104);
   -moz-box-shadow: -55px 40px 28px rgba(9, 99, 104);
   box-shadow: -55px 40px 28px rgba(9, 99, 104);
@@ -325,6 +335,18 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
+  margin-left: 450px;
+  margin-top: -450px;
+
+  /*display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 750px;
+  margin: 0 auto;
+  height: 750px;
+  margin-top: 450px;
+  grid-gap: 10px;
+  margin-bottom: 600px;
+  margin-left: -10%;*/
 }
 
 .container-card .card {

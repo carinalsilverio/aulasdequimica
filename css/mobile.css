@@ -1,8 +1,7 @@
 @media only screen and (max-width: 768px) {
   .foto-ligia {
     margin-top: 30px;
-    display: block;
-    margin-right: 50%;
+    margin-left: 280px;
   }
   .servicos {
     height: 110rem;
@@ -18,20 +17,14 @@
     height: 75rem;
   }
   #servicos h1 {
-    margin-left: 210%;
-    margin-top: -250px;
+    margin-left: auto;
+    margin-top: -35px;
   }
   .container-card {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 750px;
     margin: 0 auto;
-    height: auto;
-    margin-top: 23rem;
-    margin-left: -145px;
-    grid-gap: 10px;
-    margin-bottom: 340px;
-    text-align: center;
+    margin-top: 40px;
+    width: 700px;
   }
   .foto_servicos {
     display: none;
@@ -70,24 +63,13 @@
   .foto-ligia {
     margin-left: 70px;
   }
-  #servicos {
-    height: 160rem;
-  }
   #servicos h1 {
-    margin-left: 100%;
-    margin-top: -1270px;
+    margin-left: auto;
+    margin-top: -40px;
   }
-
   .container-card {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
-    height: 100%;
-    margin-top: 35rem;
-    margin-left: -145px;
-    grid-gap: 10px;
-    margin-bottom: 340px;
-    text-align: center;
+    margin-top: 40px;
   }
   .contato-select,
   .grupo-radio {
@@ -102,7 +84,6 @@
     width: 100%;
     margin-left: -140px;
   }
-
   #contato {
     margin-left: -5px;
   }
@@ -128,65 +109,32 @@
   }
 }
 
-/*falta fazer esse responsivo*/
 @media only screen and (min-device-width: 540px) and (max-width: 540px) {
   .foto-ligia {
-    margin-left: 70px;
-  }
-  #servicos {
-    height: 160rem;
+    margin-left: 150px;
   }
   #servicos h1 {
-    margin-left: 100%;
-    margin-top: -1270px;
+    margin-left: 150%;
   }
-
   .container-card {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto;
-    height: 100%;
-    margin-top: 35rem;
-    margin-left: -145px;
-    grid-gap: 10px;
-    margin-bottom: 340px;
-    text-align: center;
+    margin-left: -50px;
   }
-  .contato-select,
-  .grupo-radio {
-    width: auto;
-    box-sizing: content-box;
-  }
-  .titulo-video {
-    margin-left: 11.6rem;
-    white-space: nowrap;
-  }
-  .col-sm-6 {
-    width: 100%;
-    margin-left: -140px;
-  }
-
   #contato {
-    margin-left: -5px;
-  }
-  #contato h2 {
-    margin-top: 10px !important;
-  }
-  #mensagem {
-    column-width: 10px;
-  }
-  .btn-primary {
-    margin-left: 120%;
+    margin-left: -50px;
   }
   .icons {
-    margin-left: 5px;
+    margin-left: 20.8rem;
+    margin-top: 10px;
   }
   .redes-sociais {
     padding: 0;
-    margin-left: 5px;
-    margin-top: 1em;
+    margin-left: 65%;
+    margin-top: -150px;
+  }
+  address {
+    height: 5em;
   }
   footer {
-    height: 350px;
+    height: 195px;
   }
 }
