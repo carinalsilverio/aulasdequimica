@@ -1,4 +1,8 @@
 @media only screen and (max-width: 768px) {
+  .quote h3,
+  h4 {
+    color: #fff;
+  }
   .foto-ligia {
     margin-top: 30px;
     margin-left: 280px;
@@ -60,6 +64,10 @@
 }
 
 @media only screen and (min-device-width: 360px) and (max-width: 576px) {
+  .quote h3,
+  h4 {
+    color: #fff;
+  }
   .foto-ligia {
     margin-left: 70px;
   }
@@ -110,6 +118,10 @@
 }
 
 @media only screen and (min-device-width: 540px) and (max-width: 540px) {
+  .quote h3,
+  h4 {
+    color: #fff;
+  }
   .foto-ligia {
     margin-left: 150px;
   }
