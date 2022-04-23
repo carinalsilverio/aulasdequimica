@@ -98,17 +98,17 @@
   #contato h2 {
     margin-top: 10px !important;
   }
-
-  .btn-primary {
-    margin-left: 120%;
+  
+  .icons {    
+    margin-left: 65%;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 25rem;
   }
-
-  .icons {
-    margin-left: 29.5rem;
-  }
+  
   .redes-sociais {
     padding: 0;
-    margin-left: 75%;
+    margin-left: 65%;
   }
 }
 
@@ -167,15 +167,12 @@
 
   #mensagem {
     column-width: 10px;
-  }
-
-  .btn-primary {
-    margin-left: 120%;
-  }
+  } 
 
   address {
     height: 6rem;
   }
+  
   .icons {
     margin-left: 5px;    
   }
@@ -183,7 +180,7 @@
   .redes-sociais {
     padding: 0;
     margin-left: 5px;
-    margin-top: 1em;
+    margin-top: 5rem;
   }
 
   footer {
@@ -191,7 +188,7 @@
   }
 }
 
-@media only screen and (min-device-width: 540px) and (max-width: 540px) {
+@media only screen and (min-device-width: 540px) and (max-width: 580px) {
   .foto-ligia {
     display: flex;
     justify-content:center;
@@ -199,28 +196,20 @@
     float: none; 
   }
 
-
+.btn-metodologia {
+  margin-left: 55%;
+}
   
-  #servicos h1 {
-    margin-left: 150%;
-  }
-
-  .container-card {
-    margin-left: -50px;
-  }
-
   #contato {
-    margin-left: -50px;
+    width: 100%;    
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .icons {
-    margin-left: 20.8rem;
-    margin-top: 10px;
-  }
   .redes-sociais {
     padding: 0;
-    margin-left: 65%;
-    margin-top: -150px;
+    margin-left: 5px;
+    margin-top: 5rem;
   }
 
   address {
@@ -228,6 +217,6 @@
   }
 
   footer {
-    height: 195px;
+    height: 22rem;
   }
 }
