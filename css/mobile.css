@@ -1,59 +1,99 @@
 @media only screen and (max-width: 768px) {
-  .quote h3,
-  h4 {
-    color: #fff;
+
+  .logo {
+    margin-left: 0;
   }
+
+  .navbar-nav {
+    width: 100%;
+    background-color: #0389F7;
+    height: 20rem;    
+  }
+
   .foto-ligia {
-    margin-top: 30px;
-    margin-left: 280px;
+    display: flex;
+    justify-content:center;
+    margin: 2rem auto;    
+    float: none; 
   }
+
   .servicos {
     height: 110rem;
   }
+
   .imagem-quote {
     height: 30.5rem;
   }
-  #sobre p {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  #servicos {
-    height: 75rem;
-  }
-  #servicos h1 {
+
+  #sobre {
     margin-left: auto;
-    margin-top: -35px;
+    margin-right: auto;
   }
-  .container-card {
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
-    margin-top: 40px;
-    width: 700px;
+
+  #sobre p {
+    display: flex;    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
   }
-  .foto_servicos {
-    display: none;
+  .metodos {    
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 90%;
   }
-  .content {
-    height: 8000px;
-  }
+
+  .w-100 {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    justify-content: center;
+}
+
+.imagem-carrosel {
+  height: 20rem;
+  max-width: 34rem;
+}
+
+.carousel-indicators {
+  margin-bottom: 2rem;
+}
+
   .contato-select,
   .grupo-radio {
     width: auto;
     box-sizing: content-box;
   }
-  .titulo-video {
-    margin-left: 10px;
-  }
+
+  .titulo-video {   
+    display:flex;
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 2rem;
+}
+
   .col-sm-6 {
     width: 100%;
-    margin-left: -140px;
+    margin-left: 0;
   }
+
   #contato h2 {
     margin-top: 10px !important;
   }
+
   .btn-primary {
     margin-left: 120%;
   }
+
   .icons {
     margin-left: 29.5rem;
   }
@@ -63,77 +103,100 @@
   }
 }
 
-@media only screen and (min-device-width: 360px) and (max-width: 576px) {
-  .quote h3,
-  h4 {
-    color: #fff;
+@media only screen and (min-device-width: 360px) and (max-width: 576px) { 
+  .logo {
+    margin-right: 60%;
   }
-  .foto-ligia {
-    margin-left: 70px;
+
+  .navbar {
+    justify-content:center;
   }
+
   #servicos h1 {
     margin-left: auto;
     margin-top: -40px;
   }
+
   .container-card {
     margin: 0 auto;
     margin-top: 40px;
   }
+
   .contato-select,
   .grupo-radio {
     width: auto;
     box-sizing: content-box;
   }
-  .titulo-video {
-    margin-left: 11.6rem;
+
+  #video {
+    display: block;
+    width: 100%;
+    max-width: 80%;    
+    justify-content:center;
+  }
+  .titulo-video {   
     white-space: nowrap;
   }
+
   .col-sm-6 {
     width: 100%;
-    margin-left: -140px;
+    margin-left: 0;
   }
+
   #contato {
-    margin-left: -5px;
+    width: 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   #contato h2 {
     margin-top: 10px !important;
   }
+
   #mensagem {
     column-width: 10px;
   }
+
   .btn-primary {
     margin-left: 120%;
   }
-  .icons {
-    margin-left: 5px;
+
+  address {
+    height: 6rem;
   }
+  .icons {
+    margin-left: 5px;    
+  }
+
   .redes-sociais {
     padding: 0;
     margin-left: 5px;
     margin-top: 1em;
   }
+
   footer {
-    height: 350px;
+    height: 250px;
   }
+
 }
 
 @media only screen and (min-device-width: 540px) and (max-width: 540px) {
-  .quote h3,
-  h4 {
-    color: #fff;
-  }
-  .foto-ligia {
+    .foto-ligia {
     margin-left: 150px;
   }
   #servicos h1 {
     margin-left: 150%;
   }
+
   .container-card {
     margin-left: -50px;
   }
+
   #contato {
     margin-left: -50px;
   }
+
   .icons {
     margin-left: 20.8rem;
     margin-top: 10px;
@@ -143,9 +206,11 @@
     margin-left: 65%;
     margin-top: -150px;
   }
+
   address {
     height: 5em;
   }
+
   footer {
     height: 195px;
   }
