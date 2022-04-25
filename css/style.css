@@ -114,19 +114,10 @@ textarea {
   font-size: 2rem;
 }
 
-.quote h4 {
-  background-size: cover;
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1, 66rem;
-}
-
 .imagem-quote {
   height: 35rem;
   background: url("../src/img/img-quote.png") no-repeat;
-  color: #0f1516;
-  
+  color: #0f1516;  
   background-size: cover;  
   text-align: center;
   padding-top: 5rem;
@@ -154,8 +145,7 @@ textarea {
 /*Sobre*/
 
 #sobre {
-  margin-top: 4rem;
-  
+  margin-top: 4rem;  
 }
 
 #sobre p {
@@ -212,13 +202,13 @@ textarea {
   align-items: center;
   margin: 2rem 1rem;
   width: 100%;
+  max-width: 100%;
 }
 
 .grid-icone {
   display: grid;
   grid-template-columns: auto auto;
-  align-items: center;
-  margin-right: 0.625rem;
+  align-items: center;  
   height: 9.375rem;
 }
 
@@ -228,8 +218,8 @@ textarea {
   justify-content: center;
   width: 4.375rem;
   height: 4.375rem;
-  border-radius: 50px;
-  background:#053742; 
+  border-radius: 50px; 
+  background:#17D88B; 
   float: left;
   margin: 0 0.9375rem;    
 }
@@ -273,15 +263,19 @@ textarea {
 /*Depoimentos*/
 
 .depoimentos {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .imagem-carrosel {
-  height: 40rem;
+  height: 40rem; 
 }
 
 .w-100 {
   margin: 2rem auto;  
   border-radius: 2rem;
+}
+
+.carousel-indicators {
+  margin-bottom: 3rem!important;
 }
 
 /*Vídeo Institucional - Contato*/
@@ -294,9 +288,9 @@ textarea {
 .titulo-video {
   display: flex;
   color: #000;
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: bold;
-  margin: 2rem auto; 
+  margin: 4rem auto 0 auto; 
   justify-content:center;    
 }
 
@@ -328,7 +322,7 @@ textarea {
   position: relative;
 }
 
-#contato {
+.contato {
   width: 100%;  
 }
 
@@ -341,7 +335,7 @@ textarea {
   max-width: 30rem; 
 }
 
-#contato h2 {
+.contato h2 {
   font-weight: bold !important;
   font-size: 1.8rem !important;
   margin-top: 5rem !important;
@@ -361,7 +355,7 @@ textarea {
   margin-top: 0;
 }
 
-#contato .btn {
+.contato .btn {
   font-size: 1.5rem;
 }
 
@@ -396,8 +390,7 @@ footer address:last-child {
 
 .input-group-addon {
   padding: 0.6rem 1.2rem;
-  font-size: 1.4rem;
-  font-weight: 40rem;
+  font-size: 1.4rem; 
   line-height: 1;
   color: #555;
   text-align: center;
@@ -434,7 +427,6 @@ address {
   height: 4rem;
   background: rgb(174, 180, 236);
   color: #000;
-
   border-radius: 50%;
   align-items: center;
   justify-content: center;

@@ -6,8 +6,12 @@
 
   .navbar-nav {
     width: 100%;
-    background-color: #0389F7;
+    background-color: #17D88B;
     height: 20rem;    
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color:#000;
   }
 
   .foto-ligia {
@@ -39,8 +43,8 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    max-width: 90%;
+    width: 100%; 
+    max-width: 90%;   
   }
 
   .btn-metodologia {
@@ -95,7 +99,7 @@
     margin-left: 0;
   }
 
-  #contato h2 {
+  .contato h2 {
     margin-top: 10px !important;
   }
   
@@ -112,7 +116,7 @@
   }
 }
 
-@media only screen and (min-device-width: 360px) and (max-width: 576px) { 
+@media only screen and (min-width: 360px) and (max-width: 576px) { 
   .logo {
     margin-right: 60%;
   }
@@ -126,7 +130,7 @@
   }
 
   .btn-metodologia {
-    margin-left: 60%;
+    margin-left: 55%;
   }
 
   .contato-select,
@@ -154,14 +158,14 @@
     position: relative;
   }
 
-  #contato {
+  .contato {
     width: 100%;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 
-  #contato h2 {
+  .contato h2 {
     margin-top: 10px !important;
   }
 
@@ -188,7 +192,7 @@
   }
 }
 
-@media only screen and (min-device-width: 540px) and (max-width: 580px) {
+@media only screen and (min-width: 540px) and (max-width: 580px) {
   .foto-ligia {
     display: flex;
     justify-content:center;
@@ -200,7 +204,7 @@
   margin-left: 55%;
 }
   
-  #contato {
+  .contato {
     width: 100%;    
     margin-left: auto;
     margin-right: auto;
