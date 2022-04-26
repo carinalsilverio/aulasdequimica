@@ -10,8 +10,13 @@
     height: 20rem;    
   }
 
-  .navbar-dark .navbar-nav .nav-link {
+  #menu a {
+    color: #000;
+  }
+
+  #menu a:hover {
     color:#000;
+    opacity: 0.5;
   }
 
   .foto-ligia {
