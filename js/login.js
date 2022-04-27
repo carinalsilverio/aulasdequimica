@@ -5,11 +5,11 @@ const btn = document.querySelector('.btn');
 btn.onclick = () => {
   if (senha.type == 'password') {
     senha.type = 'text'
-    btn.src = '/src/img/icone-exibir.png'
+    btn.src = './src/img/icone-exibir.png'
   }
   else {
     senha.type ='password'
-    btn.src = '/src/img/icone-ocultar.png'
+    btn.src = './src/img/icone-ocultar.png'
   }
 }
 
