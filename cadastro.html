@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prof. Química - Lígia Souza - Formulário de Cadastro</title>    
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cadastro.css">
     <link rel="stylesheet" href="index.html">
 
     <link rel="stylesheet" type="text/css" href="css/reset.css"> 
@@ -13,23 +13,30 @@
 </head>
 <body>
     <div id="main-container">
-        <h1>Olá! Seja muito bem-vindo!</h1>
+        <h1>Cadastre-se para acessar ao sistema</h1>
         <form id="register-form">
             <div class="full-box">
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
             </div>
             <div class="half-box spacing">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite o seu nome">
+            </div>
+            <div class="half-box">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Digite o seu sobrenome">
+            </div>
+            <div class="half-box spacing">
                 <label for="password">Senha</label>
                 <input class="senha" type="password" name="password" id="password" placeholder="Digite a sua senha">
-            <a href=""class="recuperar-senha">Esqueceu sua senha?</a>
                 <img class="btn" src="/src/img/icone-ocultar.png" alt="icone-ocultar-senha">           
             <div class="full-box">                
                 <input type="checkbox" name="agreement" id="agreement">
-                <label for="agreement" id="agreement-label">Salvar informações de login</a></label>                
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href=""> termos de uso</a></label>                
             </div>
             <div class="full-box">                
-                <input type="submit" id="submit" value="Entrar">                
+                <input type="submit" id="submit" value="Registrar">                
             </div>
         </form>
     </div>

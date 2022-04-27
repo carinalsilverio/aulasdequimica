@@ -1,0 +1,142 @@
+/*Geral*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #323232;
+  border: none;
+}
+
+html {
+  background-image: url("../src/img/body.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+body {
+  max-width: 100%;
+  max-height: 100vh;  
+}
+
+input,
+label {
+  display: block;
+  width: 100%;
+}
+
+input:focus,
+label:focus {
+  outline: none;
+}
+
+a {
+  color: #17D88B;
+  font-weight: bold !important;
+}
+
+.half-box img {
+  width: 30px;
+  height: 30px;
+  position:absolute;
+  top: 15%;
+  right: 13rem;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.full-box img {
+  display: none;
+}
+
+/*Form*/
+#main-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+#main-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.spacing {
+  margin-right: 2.5%;
+}
+
+label {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 40px;
+}
+
+input:focus {
+  border-color: #67aae9;
+}
+
+input[type="submit"] {
+  background: #2b38e9;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.5;
+}
+
+#password {
+  max-width: 15rem;
+}
+
+#agreement {
+  margin-right: 5px;
+}
+
+#agreement,
+#agreement-label {
+  display: inline-block;
+  width: auto;
+}
+
+/*Validações*/
+.error.validation {
+  color: #ff1a1a;
+  position: absolute;
+  top: 57px;
+  font-size: 0.8rem;
+}
+
+.template {
+  display: none;
+}

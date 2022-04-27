@@ -1,3 +1,19 @@
+//exibir-Ocultar Senha //
+const senha = document.querySelector('.senha');
+const btn = document.querySelector('.btn');
+
+btn.onclick = () => {
+  if (senha.type == 'password') {
+    senha.type = 'text'
+    btn.src = '/src/img/icone-exibir.png'
+  }
+  else {
+    senha.type ='password'
+    btn.src = '/src/img/icone-ocultar.png'
+  }
+}
+
+
 /*class Validator {
 
   constructor() {

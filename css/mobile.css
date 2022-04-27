@@ -25,7 +25,6 @@
     margin: 2rem auto;    
     float: none; 
   }
-
   
   .imagem-quote {
     height: 38rem;
@@ -120,6 +119,27 @@
     margin-left: 65%;
   }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 991px) { /*falta ajustar*/
+
+  .logo {
+    
+  }
+
+  .navbar-nav {
+    width: 100%;
+    background-color: #17D88B;
+    height: 20rem;    
+  }
+
+  #menu a {
+    color: #000;
+  }
+
+  #menu a:hover {
+    color:#000;
+    opacity: 0.5;
+  }
 
 @media only screen and (min-width: 360px) and (max-width: 576px) { 
   .logo {
@@ -228,4 +248,5 @@
   footer {
     height: 22rem;
   }
+}
 }
